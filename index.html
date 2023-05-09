@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <script src='index.js'></script>
+        <title>Encriptador by Miguel Cajar</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+
+    <body>
+            <!-- ENTRADA CON BOTONES -->
+        <main>
+            <div id="header"><img id="logo" src="Logo.png"></div>
+            <div id="entrada">
+                <textarea placeholder="Digite texto a encriptar..." id="texto"></textarea>
+                <div id="botones">
+                    <button type="button" id="btn-criptador1" onclick="encriptar()" class="btn">Encriptar</button>
+                    <button type="button" id="btn-criptador2" onclick="desencriptar()" class="btn">Desencriptar</button>
+                </div>
+            </div>
+
+            <!-- SALIDA RESULTADO -->
+            <div class="salida">
+                <img src="Muñeco.png" alt="" id="muñeco">
+                <div id="mensaje-encriptado">
+                    <h2 id="titulo-mensaje">Ningún mensaje encontrado</h2>
+                    <p id="parrafo">Ingresa texto a encriptar o desencriptar</p>
+                    <span role="textarea" id="resultado" contenteditable></span>
+                    <button onclick="copytext()" id="btn-criptador3" class="btn">Copiar texto</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>
+                &copy Copyright Miguel Cajar
+            </p>
+        </footer>
+    </body>
+</html>
