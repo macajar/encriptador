@@ -32,8 +32,9 @@ footer p{display: inline-block;position: absolute;bottom: 0%;padding: 1%;}
 @media only screen and (max-width:480px){
     main{display: flex;flex-direction: row;}
     #entrada{width:100%;}
-    #texto{width: 80%; height: 30%;}
-    #botones{position:absolute;width: 80%; left: 10%; align-items: center;padding: 5%;}
-    .salida{top:100%; height: 50%; left: 10%; width: 80%;}
+    #texto{width: 80%; height: 10%;}
+    #botones{position:absolute;width: 80%; left: 10%; align-items: center;padding: 5%; border: 5%;}
+    .salida{top:100%; height: 55%; left: 10%; width: 80%;}
+    #muñeco{width: 60%;}
     footer p{top: 160%;}
 }
