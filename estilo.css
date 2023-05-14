@@ -1,5 +1,5 @@
 /*HEADER Y GENERAL*/
-html{background-color: #E5E5E5;}
+html{background-color: #E5E5E5;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 #logo{width: 5vw;}
 main{display: inline-flex;height: 95vh; width: 100vw;}
 textarea{resize: none;} 
@@ -21,7 +21,7 @@ textarea{resize: none;}
 /*BOTONES*/
 #botones{position: absolute;top: 90%;display: inline-flex;width: 15%;}
 #btn-criptador1{padding: 5%;background-color: darkblue;color: #E5E5E5;margin-right: 3%;font-size: 15px;font-weight: bold;border-radius: 25px; border: none}
-#btn-criptador2{padding: 5%;background-color: lightblue;margin-right: 3%;font-size: 15px;font-weight: bold;border-radius: 25px; border: none}
+#btn-criptador2{padding: 5%;background-color: lightblue;font-size: 15px;font-weight: bold;border-radius: 25px; border: none}
 #btn-criptador3{position:absolute;padding: 3%;background-color: lightblue;margin-right: 3%;font-size: 15px;font-weight: bold;border-radius: 25px;border: none;top: 90%;left: 35%;}
 .btn:active{transform: translateY(4px);}
 
@@ -31,12 +31,13 @@ footer p{display: inline-block;position: absolute;bottom: 0%;padding: 1%;}
 
 @media only screen and (max-width:480px){
     main{display: flex;flex-direction: row;}
-    #entrada{width:100%; height: 80%;}
-    #texto{width: 80%; height: 80%;}
-    #botones{position:absolute;width: 80%; left: 10%; align-items: center;padding: 5%; border: 5%;}
-    .salida{top:100%; height: 55%; left: 10%; width: 80%;}
+    #entrada{width:100%; height: 70%;}
+    #texto{width: 80%; height: 55%;}
+    #botones{position:relative;width: 80%; text-align: center; border: 5%;}
+    .salida{ display: inline-block; top:70%; height: 55%; left: 10%; width: 80%;}
+    #mensaje-encriptado{display: block;}
     #muñeco{width: 60%;}
-    #resultado{height: 60%;}
-    #btn-criptador3{top: 88%;}
+    #resultado{max-height: 60%;}
+    #btn-criptador3{position:absolute;text-align: center; top:90%;}
     footer p{top: 160%;}
 }
