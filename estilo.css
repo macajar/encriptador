@@ -33,8 +33,8 @@ footer p{display: inline-block;position: absolute;bottom: 0%;padding: 1%;}
     main{display: inline-flex;flex-direction: row;}
     #entrada{width:100%; height: 80%;}
     #texto{width: 80%; height: 55%;}
-    #botones{position:relative;width: 80%; text-align: center;}
-    .salida{ display: inline-block; top:80%; height: 55%; left: 10%; width: 80%; margin-top: 5%;}
+    #botones{position:relative;width: 80%; text-align: center;top:73%}
+    .salida{ display: inline-block; top:80%; height: 55%; left: 10%; width: 80%;}
     #mensaje-encriptado{display: block;}
     #muñeco{width: 60%;}
     #resultado{max-height: 60%;}
